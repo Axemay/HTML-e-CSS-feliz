@@ -23,8 +23,14 @@ header {
     justify-content: space-between;
 }
 
+#logo {
+    background-color: #a25b81;
+    height: 60px;
+}
+
 #logo:hover{
     transform: scale(1.06);
+    background-color: #d90f5a;
 }
 
 nav{
