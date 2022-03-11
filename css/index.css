@@ -60,10 +60,11 @@ a:hover::before{
     padding-right: 20px;
     box-shadow: 5px 5px 0 #000000;
     margin-right: 0;
+    transition: transform 300ms;
 }
 
 #button:hover{
     background-color: #d90f5a;
-   
+   transform: scale(1.06);
 }
 
