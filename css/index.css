@@ -23,6 +23,9 @@ header {
     justify-content: space-between;
 }
 
+#logo:hover{
+    transform: scale(1.06);
+}
 
 nav{
     text-align: right;  
