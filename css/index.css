@@ -63,7 +63,7 @@ a:hover::before{
 }
 
 .topo{
-    background: url('assets/imag/capa1.jpeg'), url('assets/images/capa2.png');
+    background-image: url(./assets/images/capa1.jpeg), url(./assets/images/capa2.png);
 }
 
 .container{
