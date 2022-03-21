@@ -1,0 +1,33 @@
+#button {
+    display: inline-block;
+    background-color: #a25b81;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 #000000;
+    margin-right: 0;
+    transition: transform 300ms;
+}
+
+#button:hover{
+    background-color: #d90f5a;
+   transform: scale(1.06);
+}
+
+.bnt{
+    display: inline-block;
+    background-color: #a25b81;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 #000000;
+    margin-right: 0;
+    transition: transform 300ms;
+    
+}
+
+.bnt:hover{
+    background-color: #d90f5a;
+}

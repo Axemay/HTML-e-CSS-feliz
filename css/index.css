@@ -15,6 +15,8 @@
 */
 
 
+
+
 header {
     display: flex;
     background-color: #331327;
@@ -60,20 +62,18 @@ a:hover::before{
     background-color: #d90f5a;
 }
 
-#button {
-    display: inline-block;
-    background-color: #a25b81;
-    height: 60px;
-    line-height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 5px 5px 0 #000000;
-    margin-right: 0;
-    transition: transform 300ms;
+.topo{
+    background: url('assets/imag/capa1.jpeg'), url('assets/images/capa2.png');
 }
 
-#button:hover{
-    background-color: #d90f5a;
-   transform: scale(1.06);
+.container{
+
+    width: 627px;
+    height: 184px;
+    left: 91px;
+    top: 196px;
+    background: #3A4042;
+    filter: drop-shadow(10px 10px 0px #000000);
+    position: absolute;
 }
 
