@@ -1,4 +1,5 @@
-#button {
+.bnt {
+    font-family: 'Fira Code', sans-serif;
     display: inline-block;
     background-color: #a25b81;
     height: 60px;
@@ -8,13 +9,15 @@
     box-shadow: 5px 5px 0 #000000;
     margin-right: 0;
     transition: transform 300ms;
+    color: #ffffff;
+    font-size: 20px;
 }
 
-#button:hover{
+.bnt:hover{
     background-color: #d90f5a;
-   transform: scale(1.06);
+    transform: scale(1.06);
 }
-
+/*
 .bnt{
     font-family: 'Fira Code', sans-serif;
     font-size: 16px;
@@ -36,4 +39,4 @@
 .bnt:hover{
     background-color: #d90f5a;
 
-}
+} */

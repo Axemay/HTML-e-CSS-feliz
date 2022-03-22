@@ -12,32 +12,34 @@
     <link rel="stylesheet" href="css/components/subtitle.css"> 
     <link rel="stylesheet" href="css/components/button.css"> 
     <link rel="stylesheet" href="css/components/box.css"> 
+    <link rel="stylesheet" href="css/components/action.css"> 
+    <link rel="stylesheet" href="css/components/header.css"> 
 
     <title>Maiara Machado</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <img id="logo" src="assets/images/logo.png" alt="Avatar da Maiara Machado"> 
-        <nav> 
-                <a href="" lang="en">Skills</a>
-                <a href="">Projetos</a>
-                <a href="">Sobre</a>
-                <a href="">Contatos</a>
-                <a id="button" href="" lang="en">Download CV</a>
+        <nav class="navigation"> 
+                <a class="action" href="" lang="en">Skills</a>
+                <a class="action" href="">Projetos</a>
+                <a class="action" href="">Sobre</a>
+                <a class="action" href="">Contatos</a>
+                <button class="bnt" id="button" href="" lang="en">Download CV</button>
         </nav>
    </header>
    <main>
-    <section class="topo">
-        <div class="box-titulo">
-            <h1>Maiara Machado</h1>     
-            <h2>FrontEnd Developer</h2>
-        </div>
-        
-        <button class="bnt">Download CV</button>
-        <button class="bnt">Contatos</button>
-        
-    </section>
+        <section class="topo">
+            <div class="box-titulo">
+                <h1 class="title">Maiara Machado</h1>     
+                <h2 class="subtitle">FrontEnd Developer</h2>
+            </div>
+            
+            <button class="bnt" lang="en">Download CV</button>
+            <button class="bnt">Contatos</button>
+            
+        </section>
     </main>
 </body>
 </html>
