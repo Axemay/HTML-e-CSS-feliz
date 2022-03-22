@@ -16,15 +16,20 @@
 }
 
 .bnt{
-    display: inline-block;
+    font-family: 'Fira Code', sans-serif;
+    font-size: 16px;
     background-color: #a25b81;
+    width: 170px;
     height: 60px;
+    color: #ffffff;
+ 
     line-height: 60px;
     padding-left: 20px;
     padding-right: 20px;
     box-shadow: 5px 5px 0 #000000;
     margin-right: 0;
     transition: transform 300ms;
+    margin-right: 20px;;
     
 }
 

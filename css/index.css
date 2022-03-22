@@ -66,14 +66,5 @@ a:hover::before{
     background-image: url(./assets/images/capa1.jpeg), url(./assets/images/capa2.png);
 }
 
-.container{
 
-    width: 627px;
-    height: 184px;
-    left: 91px;
-    top: 196px;
-    background: #3A4042;
-    filter: drop-shadow(10px 10px 0px #000000);
-    position: absolute;
-}
 

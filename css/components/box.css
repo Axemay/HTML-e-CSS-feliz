@@ -1,0 +1,16 @@
+.box-titulo{
+
+    display: inline-block;
+    left: 91px;
+    top: 196px;
+    position: absolute;
+    background: #3A4042;
+    box-shadow: 10px 10px 0px #000000;
+    text-align: center;
+    line-height: 40px;
+    padding: 42px 44px;
+}
+
+.box h1{
+    margin-bottom: 28px;
+}
