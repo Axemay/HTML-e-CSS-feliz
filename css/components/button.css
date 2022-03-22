@@ -29,10 +29,11 @@
     box-shadow: 5px 5px 0 #000000;
     margin-right: 0;
     transition: transform 300ms;
-    margin-right: 20px;;
+    margin-right: 20px;
     
 }
 
 .bnt:hover{
     background-color: #d90f5a;
+
 }
