@@ -11,12 +11,15 @@
     transition: transform 300ms;
     color: #ffffff;
     font-size: 20px;
+    width: 180px;
 }
 
 .bnt:hover{
     background-color: #d90f5a;
     transform: scale(1.06);
 }
+
+
 /*
 .bnt{
     font-family: 'Fira Code', sans-serif;
