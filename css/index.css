@@ -68,46 +68,6 @@ a:hover::before{
 
 
 
-
-
-.skill-percentage {
-
-    padding-left: 500px;
-
-}
-
-.skill-align {
-    
-    display: inline-flex;
-    align-items: center;
-    margin-bottom: 40px;
-    padding-right: 100px;
- 
-
-    
-}
-
-.skill-align img{
-    margin-right: 30px;
-    width: 80px;
-}
-
-.skill-box {
-    width: 320px;
-    height: 40px;
-    border: 5px solid #000000;
-    background-color: #FFFFFF;
-    display: flex;
-
-
-}
-
-.skill-box::before {
-    content: "";
-    background-color:  #d90f5a;
-    width: 60%;
-}
-
 footer{
     background: #000000;
 }

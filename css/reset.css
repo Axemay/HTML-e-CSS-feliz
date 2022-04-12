@@ -10,3 +10,13 @@ button{
 body {
     font-family: 'Fira Code', sans-serif;
 }
+
+progress {
+    appearance: none;
+}
+
+progress[value] {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+}
