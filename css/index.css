@@ -52,7 +52,7 @@ a{
     margin-right: 30px;
 }
 
-a::before{
+.banner a::before{
     content: "";
     background-color: #a25b81;
     width: 10px;
@@ -60,7 +60,7 @@ a::before{
     margin-right: 10px; 
 }
 
-a:hover::before{
+.banner a:hover::before{
     background-color: #d90f5a;
 }
 

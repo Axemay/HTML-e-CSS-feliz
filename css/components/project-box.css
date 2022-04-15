@@ -1,0 +1,38 @@
+.wrapper-project{
+    
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+ 
+    
+}
+
+.project-box{
+
+    margin-left: auto;
+    margin-right: auto;
+    height: 280px;
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    box-shadow: 5px 5px #FFFFFF;
+}
+
+.project-images{
+    max-height: 280px;
+    max-width: 280px;
+
+}
+
+
+.project-box.-image-one{
+    background-color: #d90f5a;
+}
+
+.project-box.-image-two{
+    background-color: #4C5B84;
+    
+}
