@@ -1,34 +1,34 @@
 
-.section{  
+.main-section{  
     background: #A25B81;
     padding-top: 50px;
     padding-bottom: 100px;
     border-bottom: 10px solid #331327;
 }
 
-.section.-bgBlack {   
+.main-section.-bgBlack {   
     background-color: #000000;
    
 }
 
-.section.-bgPurple {    
+.main-section.-bgPurple {    
     background-color: #331327;
     
 }
 
-.section.-bgGrey {    
+.main-section.-bgGrey {    
     background-color: #3A4042;    
 }
 
-.section.-bdFirst {
+.main-section.-bdFirst {
     border-color: #d90f5a;
 }
 
-.section.-bdSecond {
+.main-section.-bdSecond {
     border-color: #A25B81;
 }
 
-.section.-bdThird {
+.main-section.-bdThird {
     border-color: #331327;
 }
 
@@ -36,7 +36,7 @@
 
 
 
-.section .main-title {
+.main-section .main-title {
     color: #FFFFFF;
     text-shadow: none;   
     text-align: center;
