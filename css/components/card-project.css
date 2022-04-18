@@ -8,7 +8,7 @@
     
 }
 
-.project-box{
+.card-project{
 
     margin-left: auto;
     margin-right: auto;
@@ -18,21 +18,24 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center; 
-    box-shadow: 5px 5px #FFFFFF;
+    box-shadow: 10px 10px #FFFFFF;
+    transition: transform 300ms;
+    background-color: #d90f5a;
 }
 
-.project-images{
+.card-project:hover{
+    transform: scale(1.06);
+}
+
+.card-project .logo{
     max-height: 280px;
     max-width: 280px;
 
 }
 
 
-.project-box.-image-one{
-    background-color: #d90f5a;
-}
 
-.project-box.-image-two{
+.card-project.-blue{
     background-color: #4C5B84;
     
 }
