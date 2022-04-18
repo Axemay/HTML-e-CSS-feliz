@@ -19,23 +19,6 @@
 
 
 
-header {
-    display: flex;
-    background-color: #331327;
-    border-bottom: 10px solid #000000;
-    padding: 10px 20px;
-    justify-content: space-between;
-}
-
-
-nav{
-    text-align: right;  
-}
 
 
 
-
-
-footer{
-    background: #000000;
-}
