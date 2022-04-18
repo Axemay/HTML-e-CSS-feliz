@@ -6,19 +6,33 @@
     border-bottom: 10px solid #331327;
 }
 
-.section.-projects {   
-    background: #000000;
-    border-bottom: 10px solid  #d90f5a;
+.section.-bgBlack {   
+    background-color: #000000;
+   
 }
 
-.section.-about {    
-    background: #331327;
-    border-bottom: 10px solid #A25B81;
+.section.-bgPurple {    
+    background-color: #331327;
+    
 }
 
-.section.-contact {    
-    background: #3A4042;    
+.section.-bgGrey {    
+    background-color: #3A4042;    
 }
+
+.section.-bdFirst {
+    border-color: #d90f5a;
+}
+
+.section.-bdSecond {
+    border-color: #A25B81;
+}
+
+.section.-bdThird {
+    border-color: #331327;
+}
+
+
 
 
 
