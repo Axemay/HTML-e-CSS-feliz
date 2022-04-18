@@ -1,17 +1,6 @@
-.card-wrapper{
-    
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
- 
-    
-}
-
 .card-project{
 
-    margin-left: auto;
-    margin-right: auto;
+    
     height: 280px;
     width: 280px;
     display: flex;
