@@ -21,7 +21,10 @@
     <link rel="stylesheet" href="css/components/progress-bar.css"> 
     <link rel="stylesheet" href="css/components/card-project.css">
     <link rel="stylesheet" href="css/components/wrapper-card.css">
-    <link rel="stylesheet" href="css/components/main-text.css">
+    <link rel="stylesheet" href="css/components/main-description.css">
+    <link rel="stylesheet" href="css/components/button-arrow.css">
+    <link rel="stylesheet" href="css/components/node-card.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
 
     
     <link rel="icon" href="assets/images/logo.png">
@@ -55,7 +58,7 @@
         </section>
         
         <section class="main-section">
-            <h2 id="skills" class="main-title">Skills</h2>
+            <h2 id="skills" class="main-title -second">Skills</h2>
             
             <div class="wrapper-skill">
 
@@ -145,7 +148,7 @@
         </section>
 
     <section class="main-section -bgBlack -bdFirst">
-        <h2 id="projetos" class="main-title">Projetos</h2>
+        <h2 id="projetos" class="main-title -second">Projetos</h2>
 
         <div class="wrapper-card">
             <a href="https://maimachado.github.io/HTML-e-CSS-feliz/">
@@ -162,25 +165,52 @@
 
     </section>
     <section class="main-section -bgPurple -bdSecond">
-        <h2 id="sobre" class="main-title">Sobre</h2>
+        <h2 id="sobre" class="main-title -second">Sobre</h2>
         <article class="main-carousel">
             <div>
 
             </div>
         </article>
-        <article class="main-text">
-            <p>
-                Com 10 anos de experiência na área de educação trabalhando com Designer Instrucional, Maiara está em migração de carreira. Durante a jornada como DI, teve a oportunidade de desenvolver as soft skills essenciais para trabalho em equipe e gestão de pessoas. Atuou com orientação técnica de equipes, análise de qualidade e treinamento de novos colaboradores. 
 
-                <br>Atualmente, busca a primeira oportunidade como Front-End Developer, enquanto aprofunda seus estudos em HTML, CSS e JavaScript. Além disso, se interessa em aprender Python e desenvolver suas habilidades linguísticas em inglês (intermediário) e francês (básico).
-            </p>
+        <p class="main-description">
+            Com 10 anos de experiência na área de educação trabalhando com Designer Instrucional, Maiara está em migração de carreira. Durante a jornada como DI, teve a oportunidade de desenvolver as soft skills essenciais para trabalho em equipe e gestão de pessoas. Atuou com orientação técnica de equipes, análise de qualidade e treinamento de novos colaboradores. 
 
-        </article>
+            <br>Atualmente, busca a primeira oportunidade como Front-End Developer, enquanto aprofunda seus estudos em HTML, CSS e JavaScript. Além disso, se interessa em aprender Python e desenvolver suas habilidades linguísticas em inglês (intermediário) e francês (básico).
+        </p>
+
+        <button class="button-arrow -left"><span class="content">Voltar</span></button>
+        <figure class="node-card">
+            <figcaption class="title-card">2012</figcaption>
+            <div class="logo">
+                <img src="assets/images/logo-locaweb.png" alt="Logo da locaWeb">
+            </div>
+            </figure>
+        
+        <button class="button-arrow -right"><span class="content">Avançar</span></button>
 
     </section>
-    <section class="main-section -bgGrey -bdThird">
-        <h2 id="contato" class="main-title">Contato</h2>
 
+    <section class="main-section -bgGrey -bdThird">
+        <h2 id="contato" class="main-title -second">Contato</h2>
+        <article class="main-form">
+            <form  method="post">
+                <div class="form-inputs">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name">
+                </div>
+
+                <div class="form-inputs">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email">
+                </div>
+
+                <div class="form-inputs">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message"></textarea>
+                </div>
+            </form>
+            <button type="submit">Enviar</button>
+        </article>
     </section>
     <footer>
         

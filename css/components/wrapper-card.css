@@ -1,6 +1,6 @@
 .wrapper-card{
     display: flex;
-justify-content: center;
+    justify-content: center;
     margin-top: 50px;
     flex-wrap: wrap;
     gap: 20px;

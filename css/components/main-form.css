@@ -1,0 +1,11 @@
+.main-form{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1360px;
+}
+
+.main-form .form-inputs{
+    box-sizing: content-box;
+}
