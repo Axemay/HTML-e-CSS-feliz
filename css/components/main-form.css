@@ -1,11 +1,30 @@
 .main-form{
+    font-size: 30px;
+    font: 300;
+    color: #fff;
     margin: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 1360px;
+    width: 1300px;
 }
 
 .main-form .form-inputs{
+    padding: 20px;
     box-sizing: content-box;
+    
+}
+
+
+
+.main-form .form-inputs .input-area{
+    width: 1300px;
+    border: 5px solid #000;
+    height: 50px;
+    font-size: 20px;
+}
+
+#message{
+    min-height: 300px;
+    font-size: 20px;
 }

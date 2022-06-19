@@ -19,6 +19,14 @@
     transform: scale(1.06);
 }
 
+.main-button.-second{
+    margin: auto;
+    width: 1300px;
+}
+
+.main-button.-second:hover{
+    transform: scale(1.02);
+}
 
 /*
 .bnt{
