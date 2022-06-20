@@ -1,4 +1,5 @@
 .main-form{
+    display: flex;
     font-size: 30px;
     font: 300;
     color: #fff;
@@ -6,25 +7,28 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 1300px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+   
 }
 
 .main-form .form-inputs{
-    padding: 20px;
-    box-sizing: content-box;
     
+    box-sizing: content-box;
+    margin-bottom: 20px;
 }
 
 
 
 .main-form .form-inputs .input-area{
-    width: 1300px;
+    width: 100%;
     border: 5px solid #000;
     height: 50px;
     font-size: 20px;
 }
 
-#message{
+#message {
     min-height: 300px;
     font-size: 20px;
 }

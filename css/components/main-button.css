@@ -20,8 +20,8 @@
 }
 
 .main-button.-second{
-    margin: auto;
-    width: 1300px;
+    
+    width: 100%;
 }
 
 .main-button.-second:hover{
